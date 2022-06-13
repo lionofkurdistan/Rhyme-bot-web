@@ -1,0 +1,307 @@
+
+body {
+    font-family: Montserrat, sans-serif;
+
+    background-color: #3f3f3f;
+   
+   }
+ 
+
+ h3 {
+   
+ padding-left: 10px;
+ }
+ 
+ h3:hover {
+   color: rgb(110, 110, 110);
+   cursor: pointer;
+ 
+ }
+ 
+ h2:hover {
+   color: rgb(110, 110, 110);
+   cursor: pointer;
+ 
+ }
+ 
+ .button {
+ margin-left: 300px;
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.8);
+   background:#df5b0f;
+   padding: 15px 40px;
+   border-radius: 4px;
+   font-weight: normal;
+   text-transform: uppercase;
+   transition: all 0.2s ease-in-out;
+ }
+ 
+ .glow-button:hover {
+   color: rgba(255, 255, 255, 1);
+   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+ }
+ 
+ #logo {
+     
+     text-shadow: 1px 1px 1px #ccc;
+     text-transform: uppercase;
+     padding-right: 30px;
+     float: right;
+     
+   }
+   #logo a {
+       font-size: larger;
+     color: #333;
+     font-family: sans-serif;
+     text-decoration: none;
+   }
+
+
+   h2 {
+     padding-right: 100px;
+   }
+   #Nameteam {
+     padding-right: 40px;
+   }
+   .card {
+     background: rgb(250, 250, 250);
+     border-radius: 2px;
+     display: inline-block;
+     height: 300px;
+     margin: 1rem;
+     position: relative;
+     width: 300px;
+   }
+   .card-1 {
+     padding-left: 75px;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   }
+   
+   .card-1:hover {
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   }
+ 
+   #ft {
+     text-align: center;
+   }
+   .avatar:hover {
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     cursor: pointer;
+ 
+   }
+   .w3-quarter{
+     
+     padding-left: 70px;
+     float:left;
+     width:100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+   }
+   .w3-quarter{
+     
+     width:24.99999%;
+     
+   }
+   .w3-col.m4,.w3-third{width:33.33333%}
+   #name {
+       color: #f5f2f1;
+     font-family:Arial;
+     text-align: center;
+   }
+   #name:hover {
+       color: #ff5e01;
+   }
+   .avatar {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     border-radius: 50%;
+     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ 
+   }
+   h2 {
+     font-family:Arial;
+     text-align: center;
+   }
+   #parg {
+     color: #f5f2f1;
+     text-align: center;
+   }
+ 
+   footer {
+     background-color: #595959;
+     font-size: 0;
+     padding: 1.6rem 0rem;
+ 
+   }
+   footer:hover{
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     cursor: pointer;
+     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   }
+ footer p {
+   padding-left: 50px;
+     color: #f5f2f1;
+     font-weight: 400;
+     font-size: 16px;
+     width: 10%;
+     display: inline-block;
+     text-align: center;
+ }
+ 
+ footer .copy-right {
+     width: 80%;
+     text-align: left;
+     padding-left: 4rem;
+ }
+ 
+   
+a {
+    color: #ffffff;
+}
+.header {
+    background-color: #3f3f3f;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.header ul {
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #3f3f3f;
+}
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.header li a:hover, .header .menu-btn:hover {
+    color: #ff5e01;
+}
+.header .logo {
+    
+    float: left;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 23px 20px;
+    text-decoration: none;
+}
+.header img {
+    vertical-align: middle;
+    height: 6vh;
+}
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+.header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 48px 20px;
+    position: relative;
+    user-select: none;
+}
+.header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+.header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+/* menu btn */
+.header .menu-btn {
+    display: none;
+}
+.header .menu-btn:checked ~ .menu {
+    max-height: 300px;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before, .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+   }
+    .header li a {
+        padding: 20px 30px;
+   }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+   }
+    .header .menu-icon {
+        display: none;
+   }
+}
+
+@media screen and (max-width: 1024px) {
+    .header .logo {
+        font-size: 20px;
+    }
+    .presentation {
+        width: 90%;
+        flex-direction: column;
+    }
+    .introduction {
+        margin-top: 15vh;
+        text-align: center;
+    }
+    .intro-text h1 {
+        font-size: 30px;
+    }
+    .intro-text p {
+        font-size: 18px;
+    }
+    .cta {
+        padding: 20px 0 0 0 ;
+    }
+    .cover img {
+        margin: 50px;
+        height: 70%;
+    }
+    .pictures {
+        text-align: center;
+    }
+    .gallery img {
+        width: 300px;
+        height: 70%;
+    }
+}
+.active {
+    color: #ff5e01;
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <title>Rhyme</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <meta property="og:title" content="Rhyme Bot">
+<meta property="og:description" content="Commands Rhyme Bot">
+<meta property="og:image" content="https://media.discordapp.net/attachments/781484185822691328/781894453589180416/icon.png?width=599&height=599">
+<meta name="theme-color" content="#c54800"/>
+</head>
+
+<body>
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="logo.png" style="border-radius: 50%;"/> Rhyme</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a class="active" href="index.html">Commands</a></li>
+      <li><a href="https://discord.gg/jnBk8jjeky">Support</a></li>
+      <li><a href="https://discord.com/oauth2/authorize?client_id=775880966455164949&scope=bot&permissions=1547169015">Invite</a></li>
+      <li><a href="../about/index.html">About</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="tabs">
+      <div class="tab-header">
+        <div class="tablink tab-active" onclick="openCity(event,'Animals')">Animals</div>
+        <div class="tablink " onclick="openCity(event,'Fun')">Fun</div>
+        <div class="tablink" onclick="openCity(event,'Image')">Image</div>
+        <div class="tablink" onclick="openCity(event,'Info')">Info</div>
+        <div class="tablink" onclick="openCity(event,'Moderation')">Moderation</div>
+        <div class="tablink" onclick="openCity(event,'Auto-Moderation')">Auto-Moderation</div>
+        <div class="tablink" onclick="openCity(event,'Suggestions')">Suggestions</div>
+        <div class="tablink" onclick="openCity(event,'Verification')">Verification</div>
+        <div class="tablink" onclick="openCity(event,'Logging')">Logging</div>
+        <div class="tablink" onclick="openCity(event,'Roblox')">Roblox</div>
+        <div class="tablink" onclick="openCity(event,'Games')">Games</div>
+        <div class="tablink" onclick="openCity(event,'Music')">Music</div>
+        <div class="tablink" onclick="openCity(event,'Member Count')">Member Count</div>
+        <div class="tablink" onclick="openCity(event,'Utilities')">Utilities</div>
+
+      </div>
+  
+      <div style="margin-left:130px">
+  
+        <div id="Animals" class="tab-content category" style="display:block">
+          <p><a>cat</a><br>Lets see some pretty kitties!</p>
+          <p><a>dog</a><br>See some cute doggos!</p>
+          <p><a>puppy</a><br>No cap, cutuest things ever!</p>
+        </div>
+
+        <div id="Fun" class="tab-content category" style="display:none">
+          <p><a>kill</a><br>Instead of killing yourself, kill someone else!</p>
+          <p><a>clyde</a><br>Generated API with clyde!</p>
+          <p><a>trump</a><br>Generate API with trump! HAHA!</p>
+          <p><a>changemymind</a><br>Looking for someone to change your mind? 😂</p>
+          <p><a>math</a><br>Dumb at maths? Here, I'll help you!</p>
+          <p><a>amazeme</a><br>Let me amaze you quickly!</p>
+          <p><a>joke</a><br>Haha!</p>
+          <p><a>trigger</a><br>Get triggered buddy!</p>
+          <p><a>meme</a><br>Funniest memes ever!</p>
+           <p><a>marry</a><br>Self explanatory...</p>
+            <p><a>divorce</a><br>Yes, that is self explanatory as well...</p>
+           <p><a>marrystatus</a><br>Who's married?</p>
+           <p><a>gay</a><br>Who here is gay? You!</p>
+            <p><a>emergency</a><br>EMERGENCY BUTTON ACTIVATED!</p>
+            <p><a>eject</a><br>Ejected!</p>
+         <p><a>trash</a><br>You trash!</p>
+        </div>
+  
+        <div id="Image" class="tab-content category" style="display:none">
+          <p><a>greyscale</a><br>This is pretty much self explanatory...</p>
+          <p><a>pixelate</a><br>Same for this one!</p>
+          <p><a>colorfly</a><br>Changes the color of somebodies avatar!</p>
+          <p><a>blur</a><br>Make someone's avatar blur looking!</p>
+          <p><a>invert</a><br>This is pretty much self explanatory as well...</p>
+        </div>
+  
+        <div id="Info" class="tab-content category" style="display:none">
+          <p><a>serverinfo</a><br>Hmm...</p>
+          <p><a>youtubestats</a><br>View the stats of a youtube account!</p>
+          <p><a>botinfo</a><br>Displays indept information about the bot.</p>
+          <p><a>weather</a><br>Umm...</p>
+          <p><a>userinfo</a><br>Bruh.</p>
+        </div>
+  
+        <div id="Moderation" class="tab-content category" style="display:none">
+          <p><a>addrole</a><br>Adds a role to a specified user.</p>
+          <p><a>nickname</a><br>Set the nickname of a specified user.</p>
+          <p><a>nuke</a><br>Clones the current channel and deletes the old one.</p>
+          <p><a>removerole</a><br>Removes a specified role from a specified user.</p>
+          <p><a>ban</a><br>Bans specified user.</p>
+          <p><a>kick</a><br>Kicks specified user.</p>
+          <p><a>warn</a><br>Warns specified user.</p>
+          <p><a>reset-warns</a><br>Resets the warns of a specified user.</p>
+          <p><a>clear</a><br>Deletes provided ammount of messages!</p>
+          <p><a>unban</a><br>Finds the banned user ID and unbans them!</p>
+        </div>
+
+        <div id="Auto-Moderation" class="tab-content category" style="display:none">
+          <p><a>automod enable</a><br>Enables the automod module!</p>
+          <p><a>automod disable</a><br>Disables the automod module!</p>
+          <p><a>automod-features</a><br>Views every single module/feature automod allows!</p>
+        </div>
+
+        <div id="Suggestions" class="tab-content category" style="display:none">
+          <p><a>suggestions enable</a><br>Enables the suggestion module!</p>
+          <p><a>suggestions disable</a><br>Disables the suggestions module!</p>
+        </div>
+
+        <div id="Verification" class="tab-content category" style="display:none">
+          <p><a>setverify enable</a><br>Enables the verification module!</p>
+          <p><a>setverify disable</a><br>Disables the verification module!</p>
+          <p><a>setverifymessage</a><br>Edits the verification systemed message</p>
+          <p><a>setverifychannel</a><br>Intergers the provided channel as your verification channel!</p>
+          <p><a>setverifyrole</a><br>Role you receive once you verify!</p>
+        </div>
+
+        <div id="Logging" class="tab-content category" style="display:none">
+          <p><a>modlogs enable [channel]</a><br>Enables the logging module!</p>
+          <p><a>modlogs disable</a><br>Disables the verification module!</p>
+          <p><a>modlogs-features</a><br>Views every single functionality/event for moderation logging!</p>
+        </div>
+
+        <div id="Roblox" class="tab-content category" style="display:none">
+          <p><a>robloxverify setup</a><br>Sets up the roblox verification module, creates @verify role and #verify channel!</p>
+          <p><a>robloxverify</a><br>Scans your roblox identification and verifies you in the sent server!</p>
+        </div>
+
+        <div id="Games" class="tab-content category" style="display:none">
+          <p><a>guess-the-number</a><br>Starts a game of, guess the number!</p>
+          <p><a>soccer</a><br>Pretty obvious...</p>
+        </div>
+
+                <div id="Music" class="tab-content category" style="display:none">
+                  <div class="alert alert-info">
+					<h5 class="command-note-header">Note</h5>
+					<hr>
+					<p>The Music Commands Do Not Work Right Now!</p>
+				</div>
+        </div>
+
+                <div id="Member Count" class="tab-content category" style="display:none">
+          <p><a>membercount enable</a><br>Creates a channel with a count of members!</p>
+          <p><a>membercount disable</a><br>Disables the module...</p>
+        </div>
+
+        <div id="Utilities" class="tab-content category" style="display:none">
+          <p><a>ticket-setup [channel]</a><br>Creates a ticket panel in the provided channel with ticket reactions!</p>
+          <p><a>warnings</a><br>View the warnings of a user!</p>
+          <p><a>announce</a><br>Announce an important message in any channel!</p>
+          <p><a>embed</a><br>Generates an embed with the provided message!</p>
+          <p><a>poll</a><br>Create a poll!</p>
+          <p><a>multiplepoll</a><br>A poll, but with multiple options!</p>
+          <p><a>stealemoji</a><br>Thats obvious...</p>
+        </div>
+      </div>
+  
+      <script type="text/javascript" src="script.js"></script>
+    </section>
+  </main>
+</body>
+
+</html>
